@@ -1,0 +1,34 @@
+{
+  "name": "react-xeditable",
+  "version": "0.1.0",
+  "description": "X-Editable for React",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "examples": "./node_modules/beefy/bin/beefy examples/app.jsx  --index=examples/index.html -- -t reactify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kodbiro/react-xeditable.git"
+  },
+  "author": "Luka Mijatović <luka@kodbiro.com> (http://www.kodbiro.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kodbiro/react-xeditable/issues"
+  },
+  "homepage": "https://github.com/kodbiro/react-xeditable",
+  "devDependencies": {
+    "beefy": "^2.1.5",
+    "browserify": "^10.2.4",
+    "gulp": "^3.9.0",
+    "reactify": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "peerDependencies": {
+    "react": "^0.13.3",
+    "react-bootstrap": "^0.23.4"
+  }
+}
