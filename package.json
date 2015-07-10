@@ -1,6 +1,6 @@
 {
   "name": "react-xeditable",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "X-Editable for React",
   "main": "index.js",
   "directories": {
@@ -14,11 +14,20 @@
     "type": "git",
     "url": "https://github.com/kodbiro/react-xeditable.git"
   },
+  "keywords" : [
+    "react-component",
+    "react",
+    "x-editable",
+    "xeditable",
+    "react-bootstrap",
+    "inline editing"
+  ],
   "author": "Luka Mijatović <luka@kodbiro.com> (http://www.kodbiro.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kodbiro/react-xeditable/issues"
   },
+  "browserify": {"transform": ["reactify"]},
   "homepage": "https://github.com/kodbiro/react-xeditable",
   "devDependencies": {
     "beefy": "^2.1.5",
