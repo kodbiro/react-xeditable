@@ -1,6 +1,6 @@
 {
   "name": "react-xeditable",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "X-Editable for React",
   "main": "index.js",
   "directories": {
@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "examples": "./node_modules/beefy/bin/beefy examples/app.jsx  --index=examples/index.html -- -t reactify"
+    "examples": "./node_modules/beefy/bin/beefy examples/app.jsx  --index=examples/index.html -- -t reactify",
+    "build": "babel lib/ --out-dir dist/."
   },
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
 'use strict';
 
-var EditableTextField = require('./dist/EditableTextField.js');
+var EditableTextField = require('./lib/EditableTextField.jsx');
 
 
 module.exports = {
